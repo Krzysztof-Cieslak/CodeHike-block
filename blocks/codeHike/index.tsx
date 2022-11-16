@@ -1,6 +1,5 @@
 import { FileBlockProps, getLanguageFromFilename } from "@githubnext/blocks";
 import { Button, Box } from "@primer/react";
-import "./index.css";
 
 export default function (props: FileBlockProps) {
   const { context, content, metadata, onUpdateMetadata } = props;
