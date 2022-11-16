@@ -1,0 +1,1 @@
+1. Basic MDX sample URL: https://blocks.githubnext.com/Krzysztof-Cieslak/CodeHike-block?branch=main&blockKey=Krzysztof-Cieslak__CodeHike-block__codeHike-block&path=examples%2Fbasic.mdx&fileRef=&devServer=http%3A%2F%2Flocalhost%3A4000%2F
