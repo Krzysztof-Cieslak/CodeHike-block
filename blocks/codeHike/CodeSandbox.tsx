@@ -10,7 +10,7 @@ const optionsDefaults = {
   hidedevtools: "1",
 };
 export const CodeSandbox = ({
-  children,
+  content,
   height = "20em",
   sandboxOptions = {},
   dependencies,
@@ -18,7 +18,7 @@ export const CodeSandbox = ({
   height: string | number;
   theme: string;
   sandboxOptions: Record<string, string>;
-  children: ReactNode;
+  content: string;
   dependencies?: string[];
 }) => {
   const [url, setUrl] = useState("");
@@ -26,7 +26,7 @@ export const CodeSandbox = ({
     files: {
       "index.js": {
         // @ts-ignore
-        content: children?.props?.children?.props?.children,
+        content: content,
         isBinary: false,
       },
       "package.json": {
