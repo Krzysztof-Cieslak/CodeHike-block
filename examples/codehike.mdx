@@ -25,94 +25,79 @@ Hello, [hover me](focus://1[5:16])
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
 
-<CH.Spotlight preset="https://codesandbox.io/s/zzgrb" start={1}>
+<CH.Spotlight>
 
-```jsx app.js
-import Circle from "./circle";
-const red = "hsl(0 85% 60%)";
-export default function App() {
-  return (
-    <div>
-      <Circle color={red} />
-    </div>
-  );
+```js app.js
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
 }
 ```
 
 ---
 
-## Lorem
+Change focus
 
-Lorem ipsum dolor sit amet, consectetur adipiscing something about points, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-```jsx app.js
+```js app.js focus=2:4
 
 ```
 
 ---
 
-## Ipsum
+Or change the code
 
-Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in.
+```js app.js focus=6:10
+function lorem(ipsum, dolor = 1) {
+  const sit = ipsum == null && 0;
+  dolor = sit - amet(dolor);
+  return sit ? consectetur(ipsum) : [];
+}
 
-```jsx app.js focus=5:9
-import Circle from "./circle";
-const red = "hsl(0 85% 60%)";
-export default function App() {
-  return (
-    <div>
-      <Circle color={red} />
-      <Circle color={red} />
-      <Circle color={red} />
-    </div>
-  );
+function adipiscing(...elit) {
+  console.log(elit);
+  return elit.map((ipsum) => ipsum.sit);
 }
 ```
 
 ---
 
-## Dolor sit
+Or change the file
 
-Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu.
+<CH.Code>
 
-```jsx app.js focus=2,6:8
-import Circle from "./circle";
-const red = "hsl(0 85% 60%)";
-export default function App() {
-  return (
-    <div>
-      <Circle color={red} />
-      <Circle color={red} />
-      <Circle color={red} />
-    </div>
-  );
+```js app.js focus=1:4
+function adipiscing(...elit) {
+  console.log(elit);
+  return elit.map((ipsum) => ipsum.sit);
 }
 ```
 
 ---
 
-## Amet
-
-Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt.
-
-```jsx app.js focus=8:10
-import Circle from "./circle";
-const red = "hsl(0 85% 60%)";
-const blue = "hsl(240 50% 60%)";
-const gold = "hsl(60 60% 60%)";
-export default function App() {
-  return (
-    <div>
-      <Circle color={red} />
-      <Circle color={blue} />
-      <Circle color={gold} />
-    </div>
-  );
+```css styles.css
+.lorem {
+  color: #fff;
+  padding: 10px;
+  background: #000;
 }
+```
+
+</CH.Code>
+
+---
+
+### By the way
+
+- you can
+- put any
+- markdown
+- here
+
+👍
+
+```js app.js
+
 ```
 
 </CH.Spotlight>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
-
-Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
