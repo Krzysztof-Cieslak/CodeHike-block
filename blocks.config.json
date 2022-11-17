@@ -3,9 +3,9 @@
     "type": "file",
     "id": "codeHike-block",
     "title": "CodeHike Block",
-    "description": "Block for displaying code snippets with CodeHike",
+    "description": "Block for displaying code walkthroughs with CodeHike",
     "entry": "blocks/codeHike/index.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+    "matches": [".mdx"],
+    "example_path": "https://github.com/Krzysztof-Cieslak/CodeHike-block/blob/main/README.md"
   }
 ]
