@@ -5,7 +5,7 @@
     "title": "CodeHike Block",
     "description": "Block for displaying code walkthroughs with CodeHike",
     "entry": "blocks/codeHike/index.tsx",
-    "matches": [".mdx"],
+    "matches": ["*.mdx"],
     "example_path": "https://github.com/Krzysztof-Cieslak/CodeHike-block/blob/main/README.md"
   }
 ]
