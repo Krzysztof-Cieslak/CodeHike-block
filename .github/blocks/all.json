@@ -1,5 +1,8 @@
 {
   "examples/Scrollycoding.mdx": {
     "default": "Krzysztof-Cieslak__CodeHike-block__codeHike-block"
+  },
+  "examples/codehike.mdx": {
+    "default": "Krzysztof-Cieslak__CodeHike-block__codeHike-block"
   }
 }
