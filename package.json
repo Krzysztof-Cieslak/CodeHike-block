@@ -1,6 +1,6 @@
 {
-  "name": "codeHike-block",
-  "version": "0.0.0",
+  "name": "codehike-block",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "start": "blocks start",
