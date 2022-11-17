@@ -1,8 +1,10 @@
-# IDE Block
+# CodeHike Block
 
 **Powered by [GitHub Blocks](https://blocks.githubnext.com/)**
 
 Block for displaying code snippets with [CodeHike](https://codehike.org/).
+
+Based on the [CodeHike Playground](https://github.com/code-hike/codehike/tree/next/playground)
 
 ## How to contribute
 
