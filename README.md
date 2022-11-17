@@ -1,10 +1,23 @@
 # CodeHike Block
 
-**Powered by [GitHub Blocks](https://blocks.githubnext.com/)**
+[![name](https://img.shields.io/badge/GitHub%20Blocks-Build%20with%20%E2%9D%A4%EF%B8%8F%EF%B8%8F-blue?style=for-the-badge)](https://blocks.githubnext.com/)
 
-Block for displaying code snippets with [CodeHike](https://codehike.org/).
+Block for displaying code walkthroughs with [CodeHike](https://codehike.org/). It's best used together with Markdown Block - to embed the walkthroughs directly in your interactive Readme. 
+Here below, is the basic example of how to use it in the readme:
 
-Based on the [CodeHike Playground](https://github.com/code-hike/codehike/tree/next/playground)
+<BlockComponent
+block={{"owner":"Krzysztof-Cieslak","repo":"CodeHike-block","id":"codeHike-block","type":"file"}}
+context={{"repo":"CodeHike-block","owner":"Krzysztof-Cieslak","path":"examples/codehike.mdx","sha":"HEAD","file":"README.md"}}
+height={931}
+/>
+And here is another, longer example: 
+
+<BlockComponent
+block={{"owner":"Krzysztof-Cieslak","repo":"CodeHike-block","id":"codeHike-block","type":"file"}}
+context={{"repo":"CodeHike-block","owner":"Krzysztof-Cieslak","path":"examples/Scrollycoding.mdx","sha":"HEAD","file":"README.md"}}
+height={398}
+/>
+The implementation is based on the [CodeHike Playground](https://github.com/code-hike/codehike/tree/next/playground)
 
 ## How to contribute
 
